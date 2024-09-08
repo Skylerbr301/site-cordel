@@ -1,0 +1,121 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+header {
+       background-color: black;
+       height: 300px;
+       margin-bottom: 100px;
+       max-width: 1600px;
+       min-height: 380px;
+}
+
+header >h1 {
+         padding-top: 60px;
+         text-align: center;
+         color: white;
+         font-family: "Passion One", sans-serif;
+         font-weight: bold;
+         font-size: 155px;
+}
+
+header > p {    
+       max-width: 1600px;
+       min-width: 380px;
+       text-align: center;
+       color: white;
+       font-size: 16px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header >p > a {
+       min-width: 380px;
+       max-width: 1440px;
+       color: white;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-weight: bold;
+       text-decoration: none;
+          
+}
+
+
+.fundo {
+     background-color: rgba(0, 0, 0, 0.699);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     background-attachment: fixed;
+     width: 2000px;
+     height: 1000px;
+     max-width: 100%;
+     min-width: 100%;
+
+}
+
+
+
+#foto1 {
+          background-image: url('imagens/background001.jpg');
+          max-width: 100%;
+          min-width: 100%;       
+}
+
+#foto2 {
+         background-image: url('imagens/background002.jpg');
+         max-width: 100%;
+         min-width: 100%;
+             
+}
+
+div > div {
+         color: white;
+         background-color: rgba(0, 0, 0, 0.541);
+         
+         
+         
+}
+
+.poesia1 {
+       font-size: 54px;
+       font-family: "Sriracha", cursive;
+       padding-left: 30px;
+       
+       
+}
+
+.poesia2 {
+       font-size: 54px;
+       font-family: "Sriracha", cursive;
+       padding-left: 30px;
+       
+}
+
+footer {
+       background-color: black;
+       text-align: center;
+       color: white;
+       font-weight: normal;
+       font-size: 16px;
+       padding: 13px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer a {
+          color: white;
+          text-decoration: none;
+}
+
+footer a:hover {
+           text-decoration: none;
+           background-color: white;
+           color: black;
+           padding: 3px;
+           border-radius: 7px;
+           font-weight: bold;
+}
